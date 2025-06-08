@@ -1,0 +1,44 @@
+# === C++ Build Artifacts ===
+*.exe
+*.out
+*.o
+*.obj
+*.gch
+*.pch
+
+# === Temporary Files ===
+*.log
+*.tmp
+*.bak
+*.swp
+
+# === IDE Specific ===
+# Visual Studio
+.vscode/
+*.sdf
+*.opensdf
+*.vcxproj.*
+*.ipch
+*.db
+
+# Code::Blocks
+*.layout
+*.depend
+*.layout.save
+
+# Dev-C++
+*.ncb
+*.opt
+*.plg
+
+# CLion
+.idea/
+cmake-build-*/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === App User Data (Local Expense Files) ===
+users.txt
+*_expenses.txt
